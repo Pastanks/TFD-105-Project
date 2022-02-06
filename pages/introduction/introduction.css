@@ -1,4 +1,4 @@
-@import url("/css/reset.css");
+@import url("../../css/reset.css");
 
 *{
     box-sizing: border-box;
@@ -53,8 +53,10 @@ a{
 /* 上方 */
 .top{
     height: 660px;
-    background-image: url(/assets/introduction-pic/top-1.jpg);
-    background-position: top left;
+    background-image: url(../../assets/introduction-pic/top-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 .top-people img{
