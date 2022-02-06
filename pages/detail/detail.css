@@ -127,8 +127,9 @@ h5{
     height: 60px;   
     background-color: #262626;
     position: absolute;
-    top: 100%;
+    bottom: 0%;
     width: 100%;
+    /* min-height: ( 100% - 80px ); */
 }
 .footer img{
     height: 24px;

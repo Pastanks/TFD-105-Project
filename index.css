@@ -102,11 +102,6 @@ h2{
     letter-spacing: 5px;
     font-weight: bold;
 }
-.bottom ul li{
-    display: flex;
-    position: relative;
-    width: 20%;
-}
 
 .bottom img:hover{
     opacity:100%;
