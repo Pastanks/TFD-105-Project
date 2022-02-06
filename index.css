@@ -69,43 +69,73 @@ h2{
 
 /* 下方選單 */
 
-.bottom{
-    overflow: hidden;
-}
-
-.bottom img{
-    height: 288px;
-    opacity:20%;
-    width: 100%;
-    object-fit: cover; 
-    object-position: 50% 50%;
-    display: block;
-}
-
-.bottom ul{
-    display: flex;    
-}
-
-.bottom ul li{
+.bottom-1 {
     display: flex;
-    position: relative;
+    width: 100%;
+}
+
+.bottom-1>li {
     width: 20%;
+    height: 288px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
 }
 
-.bottom h3{
+.bottom-1>li::before {
+    content: "";
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    color: #fff;
-    letter-spacing: 5px;
-    font-weight: bold;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.bottom img:hover{
-    opacity:100%;
+.bottom-1>li:hover::before {
+    background-color: rgba(0, 0, 0, 0);
 }
+
+.bottom-1-1 {
+    background-image: url('./assets/index-pic/bottom-1.jpg');
+}
+
+.bottom-1-2 {
+    background-image: url('./assets/index-pic/bottom-2.jpg');
+}
+
+.bottom-1-3 {
+    background-image: url('./assets/index-pic/bottom-3.jpg');
+}
+
+.bottom-1-4 {
+    background-image: url('./assets/index-pic/bottom-4.jpg');
+}
+
+.bottom-1-5 {
+    background-image: url('./assets/index-pic/bottom-5.jpg');
+}
+
+.bottom-1>li>a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 100;
+}
+
+
+
+
+
+
 
 
 /* 頁尾 */
