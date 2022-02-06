@@ -1,0 +1,146 @@
+@import url("/css/reset.css");
+
+*{
+    box-sizing: border-box;
+}
+
+/* 整體 */
+body{
+    font-family: 'Noto Serif TC',Serif, Arial, Verdana;
+    background-color: #000;
+    line-height: 1.2;
+    color: #A39572;
+    }
+a{
+    color: #A39572;
+    text-decoration: none;    
+    }
+
+/*  主選單  */
+.header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #262626;
+}
+.header img{
+    width: 100%;
+    height: 40px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.header ul{
+    display: flex;
+    margin-left: auto; 
+    width: 600px;
+}
+.header li{
+    color: #A39572;
+    flex-grow: 1;
+
+}
+.header li a{
+    display: inline;  
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header li a:hover{
+    color:orangered;
+}
+
+/* 上方 */
+.top img{
+    height: 660px;
+    width: 100%;
+    object-fit: cover; 
+    object-position: 50% 0%;
+    display: block;
+}
+
+/* 中央理念 */
+.middle{
+    text-align: center;
+    margin: 25px 0;
+}
+h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+h3{
+    font-size:24px;
+}
+
+/* 老師簡介 */
+.bottom {
+    text-align: center;  
+}
+.bottom-block{
+    display: flex;   
+}
+.bottom-pic{
+    width: 50%;
+    opacity: 60%;
+}
+.bottom-text{
+    width: 50%;
+    margin: auto;
+}
+.bottom h4{
+    font-weight: bold;
+    font-size: 36px;
+}
+.bottom h5{
+    font-size: 24px;
+}
+.bottom-pic:hover{
+    opacity: 100%;
+}
+.bottom img{
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+    object-fit: cover; 
+    object-position: 50% 50%;
+    display: block;
+}
+
+/* 頁尾 */
+
+.footer{
+    height: 60px;   
+    background-color: #262626;
+}
+.footer img{
+    height: 24px;
+    width: 24px;
+    filter:contrast(0%);
+    vertical-align:text-bottom;
+}
+.footer img:hover{
+    filter:contrast(30%);
+}
+.footer ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.footer li{ 
+    padding: 0 12px;
+}
+.footer li a{
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 18px;  
+ 
+} 
+.footer-1{
+    font-size: 12px;
+    text-align: center;
+    color: #A39572;
+    background-color: #262626;
+    padding-bottom: 10px;
+}
+
+

@@ -1,0 +1,151 @@
+@import url("./css/reset.css");
+
+*{
+    box-sizing: border-box;
+}
+
+/* 整體 */
+body{
+    font-family: 'Noto Serif TC',Serif, Arial, Verdana;
+    background-color: #000;
+    }
+a{
+    color: #A39572;
+    text-decoration: none;    
+    }
+    
+/*  主選單  */
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #262626;
+}
+.header img{
+    width: 100%;
+    height: 40px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.header ul{
+    display: flex;
+    margin-left: auto; 
+    width: 600px;
+}
+.header li{
+    color: #A39572;
+    flex-grow: 1;
+
+}
+.header li a{
+    display: inline;  
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header li a:hover{
+    color:orangered;
+}
+
+/* 中央大圖 */
+.top{
+    background-image:url(./assets/index-pic/top-1.jpg);
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+h2{
+    line-height:1000px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* 下方選單 */
+
+.bottom{
+    overflow: hidden;
+}
+
+.bottom img{
+    height: 288px;
+    opacity:20%;
+    width: 100%;
+    object-fit: cover; 
+    object-position: 50% 50%;
+    display: block;
+}
+
+.bottom ul{
+    display: flex;    
+}
+
+.bottom ul li{
+    display: flex;
+    position: relative;
+    width: 20%;
+}
+
+.bottom h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.bottom ul li{
+    display: flex;
+    position: relative;
+    width: 20%;
+}
+
+.bottom img:hover{
+    opacity:100%;
+}
+
+
+/* 頁尾 */
+
+.footer{
+    height: 60px;   
+    background-color: #262626;
+}
+
+.footer img{
+    height: 24px;
+    width: 24px;
+    filter:contrast(0%);
+    vertical-align:text-bottom;
+}
+.footer img:hover{
+    filter:contrast(30%);
+}
+.footer ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.footer li{ 
+    padding: 0 12px;
+}
+.footer li a{
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 18px;  
+} 
+.footer-1{
+    font-size: 12px;
+    text-align: center;
+    color: #A39572;
+    background-color: #262626;
+    padding-bottom: 10px;
+}
