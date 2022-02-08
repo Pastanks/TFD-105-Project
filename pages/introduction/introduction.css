@@ -52,7 +52,7 @@ a{
 
 /* 上方 */
 .top{
-    height: 660px;
+    height: calc(100vh - 150px);
     background-image: url(../../assets/introduction-pic/top-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ h2{
     column-gap: 10px;
 }
 .item{
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .bottom img{
     width: 100%;
