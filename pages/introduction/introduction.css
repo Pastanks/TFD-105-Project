@@ -66,7 +66,20 @@ a{
     left: 50px;
     top: 50px; 
 }
-
+h4{
+    position: absolute;
+    opacity: 0%;
+    left: 260px;
+    top: 100px; 
+    font-size: 30px;
+    font-weight: bold;
+}
+.top-people:hover h4{
+    opacity: 100%;
+}
+.top-people{
+    position: relative;
+}
 /* 中央 */
 .middle{
     text-align: left;
