@@ -96,8 +96,9 @@ h3{
 }
 .bottom-pic:hover{
     opacity: 100%;
+
 }
-.bottom img{
+.bottom-pic img{
     overflow: hidden;
     height: 250px;
     width: 100%;
@@ -105,9 +106,26 @@ h3{
     object-position: 50% 50%;
     display: block;
 }
-
+.bottom-text-cans img{
+    width: 100px;
+    margin-top: 50px;
+}
+.bottom-cat{
+    position:relative;
+}
+.bottom .bottom-cat-1{
+    position:absolute;
+    right: 0px;
+    bottom: 5px;
+    height: 100px;
+    width: auto;
+    z-index: -1;
+    transition: 1s;
+}
+.bottom-pic:hover .bottom-cat-1{
+    right: -250px;
+}
 /* 頁尾 */
-
 .footer{
     height: 60px;   
     background-color: #262626;
@@ -133,7 +151,6 @@ h3{
     line-height: 60px;
     font-weight: bold;
     font-size: 18px;  
- 
 } 
 .footer-1{
     font-size: 12px;
