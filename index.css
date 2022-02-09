@@ -76,7 +76,6 @@ h2{
     display: flex;
     width: 100%;
 }
-
 .bottom-1>li {
     width: 20%;
     height: 288px;
@@ -87,7 +86,6 @@ h2{
     position: relative;
     cursor: pointer;
 }
-
 .bottom-1>li::before {
     content: "";
     position: absolute;
@@ -97,31 +95,24 @@ h2{
     left: 0px;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .bottom-1>li:hover::before {
     background-color: rgba(0, 0, 0, 0);
 }
-
 .bottom-1-1 {
-    background-image: url('./assets/index-pic/bottom-1.jpg');
+    background-image: url(./assets/index-pic/bottom-1.jpg);
 }
-
 .bottom-1-2 {
-    background-image: url('./assets/index-pic/bottom-2.jpg');
+    background-image: url(./assets/index-pic/bottom-2.jpg);
 }
-
 .bottom-1-3 {
-    background-image: url('./assets/index-pic/bottom-3.jpg');
+    background-image: url(./assets/index-pic/bottom-3.jpg);
 }
-
 .bottom-1-4 {
-    background-image: url('./assets/index-pic/bottom-4.jpg');
+    background-image: url(./assets/index-pic/bottom-4.jpg);
 }
-
 .bottom-1-5 {
-    background-image: url('./assets/index-pic/bottom-5.jpg');
+    background-image: url(./assets/index-pic/bottom-5.jpg);
 }
-
 .bottom-1>li>a {
     width: 100%;
     height: 100%;
@@ -140,7 +131,6 @@ h2{
     height: 60px;   
     background-color: #262626;
 }
-
 .footer img{
     height: 24px;
     width: 24px;

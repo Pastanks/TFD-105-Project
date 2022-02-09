@@ -49,6 +49,9 @@ a{
 .header li a:hover{
     color:orangered;
 }
+.header ul li:first-child a{
+    color:orangered;
+}
 
 /* 上方 */
 .top img{

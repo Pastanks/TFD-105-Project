@@ -49,10 +49,13 @@ a{
 .header li a:hover{
     color:orangered;
 }
+.header ul li:last-child a{
+    color:orangered;
+}
 
 /* 上方 */
 .top img{
-    height: calc(100vh - 136px);
+    height: calc(100vh - 150px);
     width: 100%;
     object-fit: cover; 
     object-position: 50% 50%;
@@ -62,7 +65,7 @@ a{
 /* 表單 */
 h2{
     font-weight: bold;
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .middle {
