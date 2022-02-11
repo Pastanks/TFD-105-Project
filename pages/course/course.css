@@ -55,23 +55,23 @@ a{
 
 /* 上方 */
 .top img{
-    height: calc(100vh - 152px);
+    height: calc(100vh - 146px);
     width: 100%;
     object-fit: cover; 
     object-position: 50% 50%;
     display: block;
 }
 
-/* 中央理念 */
+/* 中央 */
 .middle{
     text-align: center;
-    margin: 20px 0;
+    margin: 12px 0 16px;
 }
 h2{
     font-weight: bold;
     font-size: 48px;
 }
-/* 老師簡介 */
+/* 課程簡介 */
 .bottom {
     text-align: center;  
 }

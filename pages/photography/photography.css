@@ -57,7 +57,7 @@ a{
 
 /* 上方 */
 .top img{
-    height: calc(100vh - 158px);
+    height: calc(100vh - 148px);
     width: 100%;
     object-fit: cover; 
     object-position: 50% 20%;
@@ -67,7 +67,7 @@ a{
 /* 中央 */
 .middle{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 12px;
 }
 h2{
     font-weight: bold;

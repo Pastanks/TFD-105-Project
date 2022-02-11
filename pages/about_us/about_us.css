@@ -65,14 +65,15 @@ a{
 /* 中央理念 */
 .middle{
     text-align: center;
-    margin: 25px 0;
 }
 h2{
     font-weight: bold;
     font-size: 48px;
+    margin: 12px 0;
 }
 h3{
     font-size:24px;
+    margin-bottom: 12px;
 }
 
 /* 老師簡介 */
@@ -84,7 +85,7 @@ h3{
 }
 .bottom-pic{
     width: 50%;
-    opacity: 60%;
+    opacity: 50%;
 }
 .bottom-text{
     width: 50%;
@@ -103,10 +104,10 @@ h3{
 }
 .bottom-pic img{
     overflow: hidden;
-    height: 250px;
+    height: 300px;
     width: 100%;
     object-fit: cover; 
-    object-position: 50% 50%;
+    object-position: 50% 30%;
     display: block;
 }
 .bottom-text-cans img{
@@ -119,7 +120,7 @@ h3{
 .bottom .bottom-cat-1{
     position:absolute;
     right: 0px;
-    bottom: 5px;
+    bottom: 15px;
     height: 100px;
     width: auto;
     z-index: -1;
