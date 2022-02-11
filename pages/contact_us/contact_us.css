@@ -79,18 +79,26 @@ h2{
     color:#A39572;
     padding: 20px;
 }
-
+.middle h3{
+    margin: 20px auto 0px;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
 .middle h4{
     margin: 20px auto;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
 }
-
 .submit{
     cursor: pointer;
     color: #A39572;
     background-color: #262626;
+    width:100px;
+    height:30px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 /*  聯絡&地圖  */
