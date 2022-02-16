@@ -60,7 +60,7 @@ a{
     height: calc(100vh - 148px);
     width: 100%;
     object-fit: cover; 
-    object-position: 50% 20%;
+    object-position: 20% 20%;
     display: block;
 }
 
@@ -150,3 +150,9 @@ h2{
 }
 
 
+/* RWD */
+@media screen and (max-width: 575.98px){
+    .bottom li{
+        width: 370px;
+    }
+}
