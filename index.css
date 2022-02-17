@@ -88,11 +88,15 @@ a{
 }
 
 .top-main.-index-1{
-    transform: translateX(-33.33333333333%);
+    /* transform: translateX(-33.33333333333%); */
+    /* transform: translateX(  (calc(100% / -3))); */
+    transform: translateX(calc( 100% / -3 ));
 }
 
 .top-main.-index-2{
-    transform: translateX(-66.66666666666%);
+    /* transform: translateX(-66.66666666666%); */
+    /* transform: translateX( (calc(100% / -3)* 2)); */
+    transform: translateX(calc(( 100% / -3 ) * 2));
 }
 .top-main-1{
     width: 100%;
