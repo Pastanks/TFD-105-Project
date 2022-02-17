@@ -153,7 +153,7 @@ h2{
 /* RWD */
 @media screen and (max-width: 575.98px){
     .bottom li{
-        width: 370px;
+        width: 330px;
         margin: 0;
     }
 }
