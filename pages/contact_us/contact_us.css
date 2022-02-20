@@ -24,7 +24,7 @@ a{
     background-color: #262626;
 }
 .header img{
-    width: 100%;
+    width: 100px;
     height: 40px;
     line-height: 60px;
     margin-left: 20px;
@@ -52,7 +52,15 @@ a{
 .header ul li:last-child a{
     color:orangered;
 }
-
+.burger_btn {
+    display: none;
+}
+.burger_list{
+    width: 100px;
+    background-color: white;
+    display: block;
+    border: 1px solid rgb(163, 163, 163);
+}
 /* 上方 */
 .top img{
     height: calc(100vh - 146px);
@@ -214,4 +222,53 @@ h3{
     flex-direction: column;
     margin: 0 auto;
     }
+}
+@media screen and (max-width: 767.98px){
+.header ul li{
+    display: none;
+    z-index: 100;
+    max-height: 500px;
+    overflow: hidden;
+    transition: 2.3s;
+    margin-top: 1px;
+    background: #262626;
+        }
+.header1{  
+    position: absolute;
+    top:58px;
+    right: 0px;
+    padding:0px 20px;
+}
+.header2{
+    position: absolute;
+    top:118px;
+    right: 0px;
+    padding:0px 20px;
+}
+.header3{
+    position: absolute;
+    top:178px;
+    right: 0px;
+    padding:0px 20px;
+}
+.header4{
+    position: absolute;
+    top:238px;
+    right: 0px;
+    padding:0px 20px;
+}
+.header5{
+    position: absolute;
+    top:298px;
+    right: 0px;
+    padding:0px 20px;
+}
+.burger_btn {
+    display: block;
+    margin-right: 40px;
+        }
+.header.-on ul li{
+    display: block;
+
+}
 }

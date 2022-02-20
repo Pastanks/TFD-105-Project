@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./photography.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
     <link rel="icon" href="../../assets/index-pic/title-logo.svg" type="image/x-icon"/> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,16 +14,19 @@
 </head>
 <body>
     <!-- 主選單 -->
-    <div class="header">
+    <header class="header">
         <a href="../../index.html"><img src="../../assets/index-pic/logo-final.svg" alt=""></a>
         <ul>
-            <li><a href="../about_us/about_us.html">關於我們</a></li>
-            <li><a href="../course/course.html">攝影課程</a></li>
-            <li><a href="./photography.html">寫真攝影</a></li>
-            <li><a href="../collection/collection.html">作品展示</a></li>
-            <li><a href="../contact_us/contact_us.html">聯絡我們</a></li>
+            <li class="header1"><a href="../about_us/about_us.html">關於我們</a></li>
+            <li class="header2"><a href="../course/course.html">攝影課程</a></li>
+            <li class="header3"><a href="./photography.html">寫真攝影</a></li>
+            <li class="header4"><a href="../collection/collection.html">作品展示</a></li>
+            <li class="header5"><a href="../contact_us/contact_us.html">聯絡我們</a></li>
         </ul>
-    </div>    
+        <a href="#" class="burger_btn">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </header>    
     <!-- 上方 -->
     <div class="top">
         <img src="../../assets/photography-pic/top-1.jpg" alt=""/>
@@ -88,15 +92,26 @@
     </div>
 
     <!-- 頁尾 -->  
-    <div class="footer">     
+    <footer class="footer">     
         <ul>    
             <li><a>FOLLOW US ON</a></li>
             <li><a href="#0"><img src="../../assets/index-pic/facebook.png" alt=""></a></li>
             <li><a href="#0"><img src="../../assets/index-pic/instagram.png" alt=""></a></li>
             <li><a href="#0"><img src="../../assets/index-pic/twitter-sign.png" alt=""></a></li>  
         </ul> 
-        <div class="footer-1">   
+        <footer class="footer-1">   
             <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。</p>
-        </div>   
+        </footer>   
+    </footer> 
+    <script>
+        // 漢堡展開
+        let burger = document.getElementsByClassName("burger_btn");
+        for (let i = 0; i < burger.length; i++) {
+            burger[i].addEventListener("click", function () {
+            let header = document.getElementsByClassName("header")[0];
+            header.classList.toggle("-on");
+          });
+        }
+      </script> 
 </body>
 </html>

@@ -23,7 +23,7 @@ a{
     background-color: #262626;
 }
 .header img{
-    width: 100%;
+    width: 100px;
     height: 40px;
     line-height: 60px;
     margin-left: 20px;
@@ -48,7 +48,15 @@ a{
 .header li a:hover{
     color:orangered;
 }
-
+.burger_btn {
+    display: none;
+}
+.burger_list{
+    width: 100px;
+    background-color: white;
+    display: block;
+    border: 1px solid rgb(163, 163, 163);
+}
 /* 中央大圖 */
 .container
 {
@@ -57,7 +65,7 @@ a{
     position: relative;
     z-index: 1;
 }
-.test-btn{
+.next-btn{
     position: absolute;
     right: 3%;
     top: 50%;
@@ -88,14 +96,10 @@ a{
 }
 
 .top-main.-index-1{
-    /* transform: translateX(-33.33333333333%); */
-    /* transform: translateX(  (calc(100% / -3))); */
     transform: translateX(calc( 100% / -3 ));
 }
 
 .top-main.-index-2{
-    /* transform: translateX(-66.66666666666%); */
-    /* transform: translateX( (calc(100% / -3)* 2)); */
     transform: translateX(calc(( 100% / -3 ) * 2));
 }
 .top-main-1{
@@ -111,7 +115,7 @@ a{
     width: 100%;
     height: calc(100vh - 60px);
     background-size: cover;
-    background-position: center center;
+    background-position: 5% center;
     overflow: hidden;
     position: relative;
     background-image:url(./assets/index-pic/top-2.jpg);
@@ -120,7 +124,7 @@ a{
     width: 100%;
     height: calc(100vh - 60px);
     background-size: cover;
-    background-position: center center;
+    background-position: 15% center;
     overflow: hidden;
     position: relative;
     background-image:url(./assets/index-pic/top-3.jpg);
@@ -134,6 +138,13 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.top-main-2 h2{
+    -webkit-text-stroke: 0.1px rgb(255, 0, 0);
+    -webkit-text-fill-color: rgb(61, 73, 97);
+}
+.top-main-3 h2{
+    color: black;
 }
 
 /* 下方選單 */
@@ -232,5 +243,54 @@ h2{
     .bottom-1 a{
         writing-mode: vertical-lr;
         text-orientation: upright;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .header ul li{
+        display: none;
+        z-index: 100;
+        max-height: 500px;
+        overflow: hidden;
+        transition: 2.3s;
+        margin-top: 1px;
+        background: #262626;
+            }
+    .header1{  
+        position: absolute;
+        top:58px;
+        right: 0px;
+        padding:0px 20px;
+    }
+    .header2{
+        position: absolute;
+        top:118px;
+        right: 0px;
+        padding:0px 20px;
+    }
+    .header3{
+        position: absolute;
+        top:178px;
+        right: 0px;
+        padding:0px 20px;
+    }
+    .header4{
+        position: absolute;
+        top:238px;
+        right: 0px;
+        padding:0px 20px;
+    }
+    .header5{
+        position: absolute;
+        top:298px;
+        right: 0px;
+        padding:0px 20px;
+    }
+    .burger_btn {
+        display: block;
+        margin-right: 40px;
+            }
+    .header.-on ul li{
+        display: block;
+    
     }
 }
