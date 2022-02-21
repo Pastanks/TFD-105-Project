@@ -51,8 +51,12 @@
           <h2>回憶，無可取代</h2>
         </div>
       </div>
-      <div class="next-btn"></div>
-      <div class="prev-btn"></div>
+      <div class="next-btn">
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="prev-btn">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
     </div>
 
     <!-- 下方選單 -->
@@ -96,46 +100,6 @@
       </footer>
     </footer>
   </body>
-  <script>
-    // 輪播
-    let index = 0;
-    let btnN = document.getElementsByClassName("next-btn")[0];
-    let btnP = document.getElementsByClassName("prev-btn")[0];
-    let container = document.getElementsByClassName("top-main")[0];
-    btnN.addEventListener("click", () => {
-      container.classList.remove("-index-" + index);
-      if (index >= 2) {
-        index = 0;
-      } else {
-        index++;
-      }
-      container.classList.add("-index-" + index);
-    });
-    btnP.addEventListener("click", () => {
-      container.classList.remove("-index-" + index);
-      if (index <= 0) {
-        index = 2;
-      } else {
-        index--;
-      }
-      container.classList.add("-index-" + index);
-    });
-    setInterval(function () {
-      container.classList.remove("-index-" + index);
-      if (index >= 2) {
-        index = 0;
-      } else {
-        index++;
-      }
-      container.classList.add("-index-" + index);
-    }, 6000);
-            // 漢堡展開
-            let burger = document.getElementsByClassName("burger_btn");
-        for (let i = 0; i < burger.length; i++) {
-            burger[i].addEventListener("click", function () {
-            let header = document.getElementsByClassName("header")[0];
-            header.classList.toggle("-on");
-          });
-        }
-  </script>
+<script src = "./javascript/all.js"></script>
+<script src = "./index.js"></script>
 </html>

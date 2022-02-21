@@ -180,12 +180,9 @@ h3{
 .header ul li{
     display: none;
     z-index: 100;
-    max-height: 500px;
-    overflow: hidden;
     transition: 2.3s;
-    margin-top: 1px;
     background: #262626;
-        }
+}
 .header1{  
     position: absolute;
     top:58px;

@@ -47,9 +47,10 @@
         <h4>洽詢攝影方案者請勾選</h4>
         <div class = "middle-t">
             <ul>
-                <li><input type ="checkbox" name="photography" value="" style="width:20px;height:20px;">指定黑貓老師</li>
-                <li><input type ="checkbox" name="photography" value="" style="width:20px;height:20px;">指定白貓老師</li>
-                <li><input type ="checkbox" name="photography" value="" style="width:20px;height:20px;">橘貓老師出場</li>
+                <li><input type ="checkbox" name="photography" value="" id="check_all" style="width:20px;height:20px;"><label for="check_all">花喵老師全餐</label></li>
+                <li><input type ="checkbox" name="photography" value="" class="three_cat" id="option1" style="width:20px;height:20px;">指定黑貓老師</li>
+                <li><input type ="checkbox" name="photography" value="" class="three_cat" id="option2" style="width:20px;height:20px;">指定白貓老師</li>
+                <li><input type ="checkbox" name="photography" value="" class="three_cat" id="option3" style="width:20px;height:20px;">橘貓老師出場</li>
                 <li><input type ="checkbox" name="photography" value="" style="width:20px;height:20px;">自行攜帶寵物</li>
             </ul>
         </div>
@@ -94,16 +95,8 @@
     <footer class="footer-1">   
         <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。</p>
     </footer>           
-</footer> 
-<script>
-    // 漢堡展開
-    let burger = document.getElementsByClassName("burger_btn");
-    for (let i = 0; i < burger.length; i++) {
-        burger[i].addEventListener("click", function () {
-        let header = document.getElementsByClassName("header")[0];
-        header.classList.toggle("-on");
-      });
-    }
-  </script>   
+</footer>    
+  <script src = "../../javascript/all.js"></script>
+  <script src = "./contact_us.js"></script>
 </body>
 </html>
