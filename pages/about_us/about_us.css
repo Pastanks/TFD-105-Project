@@ -132,10 +132,42 @@ h3{
     width: auto;
     z-index: -1;
     transition: 1s;
+    /* transform: rotate(0deg);
+    transform-origin: 0%;
+    animation: bottom-cat-1 2s linear infinite; */
 }
+/* @keyframes bottom-cat-1{
+	0%{
+		transform: rotate(-5deg);
+	}
+    50%{
+		transform: rotate(5deg);
+	}
+	100%{
+		transform: rotate(-5deg);
+	}
+} */
 .bottom-pic:hover .bottom-cat-1{
     right: -25%;
+    transform: rotate(0deg);
+    transform-origin: 0%;
+    animation: bottom-cat-1 0.9s linear infinite;
 }
+
+/* animation: bottom-cat-1 1s linear infinite; */
+
+@keyframes bottom-cat-1{
+	0%{
+		transform: rotate(-5deg);
+	}
+    50%{
+		transform: rotate(5deg);
+	}
+	100%{
+		transform: rotate(-5deg);
+	}
+}
+
 /* 頁尾 */
 .footer{
     height: 60px;   
