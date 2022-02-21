@@ -6,61 +6,13 @@
 
 /* 整體 */
 body{
-    font-family: 'Noto Serif TC',Serif, Arial, Verdana;
-    background-color: #000;
     line-height: 1.2;
     color: #A39572;
     }
-a{
-    color: #A39572;
-    text-decoration: none;    
-    }
-
-/*  主選單  */
-.header{
-    display: flex;
-    align-items: center;
-    height: 60px;
-    background-color: #262626;
-}
-.header img{
-    width: 100px;
-    height: 40px;
-    line-height: 60px;
-    margin-left: 20px;
-}
-.header ul{
-    display: flex;
-    margin-left: auto; 
-    width: 600px;
-}
-.header li{
-    color: #A39572;
-    flex-grow: 1;
-
-}
-.header li a{
-    display: inline;  
-    text-align: center;
-    line-height: 60px;
-    font-weight: bold;
-    font-size: 18px;
-}
-.header li a:hover{
-    color:orangered;
-}
 .header ul li:last-child a{
     color:orangered;
 }
-.burger_btn {
-    display: none;
-}
-.burger_list{
-    width: 100px;
-    background-color: white;
-    display: block;
-    border: 1px solid rgb(163, 163, 163);
-}
+
 /* 上方 */
 .top img{
     height: calc(100vh - 146px);
@@ -99,8 +51,6 @@ h2{
     border: none;
 }
 .middle-t li{
-    /* display: flex;
-    justify-content: center; */
     display: inline-block;
 }
 
@@ -144,43 +94,6 @@ h3{
 }
 
 
-/* 頁尾 */
-
-.footer{
-    height: 60px;   
-    background-color: #262626;
-}
-
-.footer img{
-    height: 24px;
-    width: 24px;
-    filter:contrast(0%);
-    vertical-align:text-bottom;
-}
-.footer img:hover{
-    filter:contrast(30%);
-}
-.footer ul{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-.footer li{ 
-    padding: 0 12px;
-}
-.footer li a{
-    line-height: 60px;
-    font-weight: bold;
-    font-size: 18px;  
-} 
-.footer-1{
-    font-size: 12px;
-    text-align: center;
-    color: #A39572;
-    background-color: #262626;
-    padding-bottom: 10px;
-}
-
 
 /* RWD */
 @media screen and (max-width: 575.98px){
@@ -203,9 +116,8 @@ h3{
         width: 550px;
     }
     .middle-t {
-    flex-direction: column;
-    margin: 0 auto;
-   
+        flex-direction: column;
+        margin: 0 auto;
     }
     .bottom-map{
         width: 550px;
@@ -222,50 +134,4 @@ h3{
     flex-direction: column;
     margin: 0 auto;
     }
-}
-@media screen and (max-width: 767.98px){
-.header ul li{
-    display: none;
-    z-index: 100;
-    transition: 2.3s;
-    background: #262626;
-        }
-.header1{  
-    position: absolute;
-    top:58px;
-    right: 0px;
-    padding:0px 20px;
-}
-.header2{
-    position: absolute;
-    top:118px;
-    right: 0px;
-    padding:0px 20px;
-}
-.header3{
-    position: absolute;
-    top:178px;
-    right: 0px;
-    padding:0px 20px;
-}
-.header4{
-    position: absolute;
-    top:238px;
-    right: 0px;
-    padding:0px 20px;
-}
-.header5{
-    position: absolute;
-    top:298px;
-    right: 0px;
-    padding:0px 20px;
-}
-.burger_btn {
-    display: block;
-    margin-right: 40px;
-        }
-.header.-on ul li{
-    display: block;
-
-}
 }
