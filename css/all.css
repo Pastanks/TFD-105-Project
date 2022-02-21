@@ -1,4 +1,4 @@
-@import url("./css/reset.css");
+/* @import url("./css/reset.css"); */
 
 *{
     box-sizing: border-box;
@@ -138,10 +138,13 @@ a{
     }
     .burger_btn {
         display: block;
-        margin-right: 40px;
+        margin-right: 20px;
             }
     .header.-on ul li{
         display: block;
+    }
+    .burger_btn{
+        color:#A39572;;
     }
     .burger_btn.-on{
         color:orangered;
