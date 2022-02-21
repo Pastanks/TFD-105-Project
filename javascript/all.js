@@ -4,5 +4,7 @@ let burger = document.getElementsByClassName("burger_btn");
     burger[i].addEventListener("click", function () {
     let header = document.getElementsByClassName("header")[0];
     header.classList.toggle("-on");
+    let burgeron = document.getElementsByClassName("burger_btn")[0];
+    burgeron.classList.toggle("-on");
 });
 }

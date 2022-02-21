@@ -14,8 +14,6 @@ a{
     text-decoration: none;    
     }
 
-
-
 /*  主選單  */
 
 .header{
@@ -38,7 +36,6 @@ a{
 .header li{
     color: #A39572;
     flex-grow: 1;
-
 }
 .header li a{
     display: inline;  
@@ -52,6 +49,10 @@ a{
 }
 .burger_btn {
     display: none;
+    font-size: 30px;
+}
+.burger_btn:hover {
+    color:orangered;
 }
 .burger_list{
     width: 100px;
@@ -141,6 +142,8 @@ a{
             }
     .header.-on ul li{
         display: block;
-    
+    }
+    .burger_btn.-on{
+        color:orangered;
     }
 }
