@@ -1,4 +1,4 @@
-let gallery = document.getElementsByClassName("picb");   
+// 上下圖連動  
 let img = picb.getElementsByTagName("img");
 let BigGallery =document.getElementById("picX");
 

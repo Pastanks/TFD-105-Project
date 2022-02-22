@@ -6,8 +6,8 @@
         let all_items = document.querySelectorAll(".three_cat");
     all_items.forEach(function(item, i){
         item.checked = check_all.checked;  
-    });
-});   
+        });
+    });   
     let all_items = document.querySelectorAll(".three_cat");
     all_items.forEach(function(item, i){
         item.addEventListener("click", function(){
