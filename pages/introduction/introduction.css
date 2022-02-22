@@ -75,6 +75,7 @@ h2{
     margin:  30px;
     column-count: 3;
     column-gap: 10px;
+    cursor: pointer;
 }
 .item{
     margin-bottom: 10px;
