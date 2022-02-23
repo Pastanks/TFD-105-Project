@@ -81,5 +81,7 @@ h2{
     .bottom li{
         width: 330px;
         margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
