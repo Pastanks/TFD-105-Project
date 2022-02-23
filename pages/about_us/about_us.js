@@ -1,7 +1,12 @@
 let catrun = document.getElementById("catrr");
-catrun.addEventListener("mouseenter", () => {
-setTimeout(function(){
-    if(window.innerWidth >= 768){
-    catrun.remove();}
-},9000);
+catrun.addEventListener("dblclick", () => {
+    catrun.classList.toggle("run");
+    document.getElementById("catrr").id = "catrrr";
+    let catrunr = document.getElementById("catrrr");
+catrunr.addEventListener("mousemove", () => {
+    setTimeout(function(){
+        if(window.innerWidth >= 768){
+        catrunr.remove();}
+        },6000);
+        });
 });

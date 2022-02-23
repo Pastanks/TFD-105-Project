@@ -74,6 +74,9 @@ h3{
     width: 100px;
     margin-top: 50px;
 }
+.bottom-block.run .bottom-text-cans img{
+    display: none;
+}
 .bottom-cat{
     position:relative;
 }
