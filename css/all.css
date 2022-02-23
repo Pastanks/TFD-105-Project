@@ -61,7 +61,6 @@ a{
     border: 1px solid rgb(163, 163, 163);
 }
 
-
 /* 頁尾 */
 
 .footer{
@@ -97,8 +96,24 @@ a{
     background-color: #262626;
     padding-bottom: 10px;
 }
+/* 回到頁首 */
+.top-btn{
+    font-size: 40px;
+    position: fixed; 
+    bottom: 30px; 
+    right: 40px; 
+    z-index: 99; 
+    cursor: pointer;
+    display: none;
+}
+.top-btn:hover{
+    color:orangered;
+}
+.top-btn.on{
+    display: block;
+}
 
-
+/* RWD */
 @media screen and (max-width: 767.98px){
     .header ul li{
         display: none;
