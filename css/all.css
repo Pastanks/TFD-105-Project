@@ -105,41 +105,43 @@ a{
         z-index: 100;
         transition: 2.3s;
         background: #262626;
-            }
+        opacity: 0.9;
+        width: 100%;
+        }
+    .header ul li a{
+        display: block;
+        margin: 0 auto;
+        font-size: 24px;
+    }        
     .header1{  
         position: absolute;
         top:58px;
         right: 0px;
-        padding:0px 20px;
     }
     .header2{
         position: absolute;
         top:118px;
         right: 0px;
-        padding:0px 20px;
     }
     .header3{
         position: absolute;
         top:178px;
         right: 0px;
-        padding:0px 20px;
     }
     .header4{
         position: absolute;
         top:238px;
         right: 0px;
-        padding:0px 20px;
     }
     .header5{
         position: absolute;
         top:298px;
         right: 0px;
-        padding:0px 20px;
     }
     .burger_btn {
         display: block;
         margin-right: 20px;
-            }
+    }
     .header.-on ul li{
         display: block;
     }
