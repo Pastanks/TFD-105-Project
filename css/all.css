@@ -171,3 +171,12 @@ a{
         color:orangered;
     }
 }
+
+@media screen and (max-width: 575.98px){
+ /* 回到頁首 */
+ .top-btn{
+    font-size: 28px; 
+    bottom: 58px; 
+    right: 6px; 
+}
+}

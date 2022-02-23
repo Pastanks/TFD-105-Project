@@ -74,7 +74,7 @@ h3{
     width: 100px;
     margin-top: 50px;
 }
-.bottom-block.run .bottom-text-cans img{
+.bottom-block.run .bottom-text-cans .ca{
     display: none;
 }
 .bottom-cat{
@@ -144,5 +144,8 @@ h3{
 }
 .bottom-text-cans img{
     margin-top: 20px;
+}
+.ca{
+    display: none;
 }
 }
