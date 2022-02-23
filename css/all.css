@@ -105,12 +105,16 @@ a{
     z-index: 99; 
     cursor: pointer;
     display: none;
+    line-height: 0%;
 }
 .top-btn:hover{
     color:orangered;
 }
 .top-btn.on{
     display: block;
+}
+.top-text{
+    font-size: 8px;
 }
 
 /* RWD */
