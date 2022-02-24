@@ -81,13 +81,11 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: 0.1em 0.1em  black
 }
-.top-main-2 h2{
-    color: rgb(255, 0, 0)
-}
-/* }blanchedalmond; */
 .top-main-3 h2{
     color: black;
+    text-shadow: 0.1em 0.1em  white;
 }
 
 /* 下方選單 */
