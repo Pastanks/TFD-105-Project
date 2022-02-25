@@ -39,10 +39,16 @@
     <form action="">
         <ul class="middle-text">
             <li>
-                <input type ="text" name="name" placeholder="請輸入姓名" ><br>   
-                <input type ="text" name="phone" placeholder="請輸入電話" ><br> 
+                <input id="name1" type ="text" name="name" placeholder="請輸入姓名" ><br>   
+                <input id="name2" type ="text" name="phone" placeholder="請輸入電話" ><br> 
                 <input type ="text" name="email" placeholder="請輸入E-mail" > <br>      
                 <input type ="text" name="lineid" placeholder="請輸入LINE ID" ><br> 
+            </li>  
+        </ul>
+        <h4>預約攝影日期</h4>
+        <ul class="middle-date">
+            <li>
+                <input id="date" type ="date" name="prdate" value="2022-02-24"><br>  
             </li>  
         </ul>
         <h4>洽詢攝影方案者請勾選</h4>
@@ -58,7 +64,7 @@
         <h3>訊息</h3>
                 <textarea class="middle-message" name=""  cols="103" rows="10" placeholder="如有任何問題請於此輸入"></textarea>
             <br>
-        <input class ="submit" type ="submit" value="送出">
+        <input class ="submit" id="submitin" type ="submit" value="送出">
     </form>      
 </div>
 
