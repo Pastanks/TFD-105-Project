@@ -29,4 +29,4 @@ setInterval(function () {
     index++;
   }
   container.classList.add("-index-" + index);
-}, 6000);
+}, 10000);
