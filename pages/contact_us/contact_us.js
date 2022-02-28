@@ -38,7 +38,7 @@ submitin.addEventListener("click", function (e) {
   }
   if (form) {
     let isExisted = form.includes(date);
-    if (isExisted) {
+    if (isExisted && date!= "") {
       return alert("您已預約此日期，請重新選擇");
     } else {
       form.unshift(task);

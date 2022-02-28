@@ -46,7 +46,7 @@ h2{
     position: fixed;
     right: 10px;
     top: 10px;
-    z-index: -8;
+    z-index: 5;
 }
 
 /* 攝影展示 */
