@@ -21,7 +21,7 @@ btnP.addEventListener("click", () => {
   }
   container.classList.add("-index-" + index);
 });
-setInterval(function () {
+function slide() {
   container.classList.remove("-index-" + index);
   if (index >= 2) {
     index = 0;
@@ -29,4 +29,15 @@ setInterval(function () {
     index++;
   }
   container.classList.add("-index-" + index);
-}, 10000);
+}
+
+let timer = setInterval(slide, 7000);
+
+container.addEventListener("mouseenter", () => {
+  window.clearInterval(timer);
+});
+container.addEventListener("mouseleave", () => {
+  window.clearInterval(timer);
+  timer = setInterval(slide, 7000);
+});
+
